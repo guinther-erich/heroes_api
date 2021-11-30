@@ -13,6 +13,7 @@ In this project I used:
 - Spring Batch to processing in packages;
 - Spring WebFlux to create decleratives components;
 - Java 8;
+- Lombok Java annotation library which helps to reduce boilerplate code;
 - Maven to manage dependencies;
 - Reactor to be a responsive with reactor-core and reactor-netty;
 - AWS CLI to communicate locally with DynamoDB;
