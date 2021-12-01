@@ -19,4 +19,4 @@ In this project I used:
 - AWS CLI to communicate locally with DynamoDB;
 - Slf4j;
 - JUnit to unit test in the code;
-- Swagger and PostmanDocumenter to document the API.
+- Swagger and PostmanDocumenter to document the API. <a href="https://documenter.getpostman.com/view/10614065/SzmcZxzT" target="_blank">Click here to access the API documentation</a>.
