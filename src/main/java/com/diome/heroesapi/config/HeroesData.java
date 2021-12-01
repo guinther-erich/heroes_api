@@ -8,12 +8,15 @@ import com.amazonaws.services.dynamodbv2.document.Item;
 import com.amazonaws.services.dynamodbv2.document.PutItemOutcome;
 import com.amazonaws.services.dynamodbv2.document.Table;
 
+import static com.diome.heroesapi.constants.HeroesConstant.ENDPOINT_DYNAMO;
+import static com.diome.heroesapi.constants.HeroesConstant.REGION_DYNAMO;
+
 
 public class HeroesData {
     public static void main(String[] args) throws Exception {
 
         AmazonDynamoDB client = AmazonDynamoDBClientBuilder.standard()
-                .withEndpointConfiguration(new AwsClientBuilder.EndpointConfiguration())
+                .withEndpointConfiguration(new AwsClientBuilder.EndpointConfiguration(ENDPOINT_DYNAMO, REGION_DYNAMO))
                 .build();
         DynamoDB dynamoDB = new DynamoDB(client);
 
